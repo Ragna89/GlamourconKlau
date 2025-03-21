@@ -1,0 +1,55 @@
+/* CSS NavBar */
+#mi-navbar {
+    background-color: black !important;
+    text-align: center;
+}
+
+#mi-navbar a {
+    color: gold;
+    text-decoration: none;
+}
+
+#mi-navbar a:hover {
+    animation: agrandarYEncoger 0.5s ease forwards;
+}
+
+#cascada1 .dropdown-menu{
+    background-color: black;
+
+}
+
+#cascada1 .dropdown-item:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+
+#btnBuscar {
+    background-color: gold;
+}
+
+#btnBuscar:hover {
+    animation: agrandarYEncoger 0.5s ease forwards;
+}
+
+#buscar:hover {
+    animation: agrandarYEncoger 0.5s ease forwards;
+}
+
+/* Animación */
+@keyframes agrandarYEncoger {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+/* Fin CSS NavBar */
