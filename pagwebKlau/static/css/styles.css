@@ -26,27 +26,6 @@
     color: black;
 }
 
-#btnBuscar {
-    background-color: gold;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    
-}
-
-#buscar {
-    width: 300px;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-}
-
-#btnBuscar:hover {
-    animation: agrandarYEncoger 0.5s ease forwards;
-}
-
-#buscar:hover {
-    animation: agrandarYEncoger 0.5s ease forwards;
-}
-
 /* Animación */
 @keyframes agrandarYEncoger {
     0% {
@@ -82,6 +61,7 @@
     height: 550px;
     width: 100%;
 }
+
 
 /* Fin Carrusel */
 /* Fin Sección 1 */
